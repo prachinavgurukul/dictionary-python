@@ -1,22 +1,32 @@
-dic1={1:10, 2:20}
-dic2={3:30,2:40}
-dic3={5:50,6:60}
-dic={}
-# b={}
-# for i in dic2:
-#     if i in dic1:
-#         dic1[i]=dic1[i]+dic2[i]
-#         dic1.update(dic3)
-#     else:
-#         dic1[i]=dic2[i]
-# print(dic1)
+# details={
+# "name":"Shanti",
+# "age":12,
+# "email":"shanti@navgurukul.org",
+# }
+
+# print(details["name"])
+# print(details["email"])
+# print(details["age"])
 
 
 
-for i in dic1,dic2,dic3:
-    dic.update(i)
-    for i in dic:
-        if i in dic1:
-            if i in dic2:
-                dic.update({i:(dic1[i]+dic2[i])})
-print(dic)
+# dict1={1:2,2:3,3:4,4:5}
+# sum=0
+# for i in dict1:
+#     sum=sum+dict1[i]
+# print(sum)
+
+
+
+# d=dict()
+# for i in range(1,16):
+#     d[i]=i**2
+# print(d)
+
+
+# s={'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56}
+# a={'python':20,"gaurav":300,'dev':34,"karan":43}
+# c={}
+# for i in s,a:
+#     s.update(i)
+# print(s)
